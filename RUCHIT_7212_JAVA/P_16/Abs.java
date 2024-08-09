@@ -3,17 +3,22 @@
 
 */
 
-abstract class Animal{
-	public abstract void animalSound();
+abstract class Animal
+{	
+//abstract metho does not have a body
+public abstract void animalSound();
 
-	public void sleep(){
+	public void sleep()
+	{
 	
 		System.out.println("Zzzzzzzzz");
 	}
 }
 
-class Dog extends Animal{
-	public void animalSound(){
+class Dog extends Animal
+{
+	public void animalSound()
+	{
 		System.out.println("The dog says: woof.....woof");
 	}
 }
